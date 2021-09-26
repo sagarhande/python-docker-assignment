@@ -13,7 +13,7 @@ In order to run this container you'll need docker installed , PFB usefull links.
 * [Linux](https://docs.docker.com/linux/started/)
 
 ### Usage
-Clone this repository to get started
+Clone this repository to get started or simply download all files
 
 ```shell
 git clone https://github.com/sagarhande/python-docker-assignment.git
@@ -27,7 +27,7 @@ cd  python-docker-assignment
 build your image
 
 ```shell
-docker build -t <put image name> 
+docker build -t <put image name>  .
 ```
 run your container<br>
 _note : -it option is mandatory as we are taking user inpute in our python code_
